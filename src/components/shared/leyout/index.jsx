@@ -9,7 +9,7 @@ const Leyout = ({children}) => {
         },
         {
             path:"/about",
-            label:"about as"
+            label:"about us"
         },
         {
             path:"/culture",
