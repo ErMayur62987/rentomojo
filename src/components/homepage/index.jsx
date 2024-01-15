@@ -1,11 +1,19 @@
+
 import Leyout from "../shared/leyout"
+import Hero from "./hero"
+import Services from "./services"
+import Products from "./products"
 
 const Homepage = () => {
   return (
-    <div className='w-screen flex justify-center px-16'>
-      <Leyout>
-          <h1>Homepage</h1>
-       </Leyout>
+    <div className="h-screen w-screen">
+        <Leyout>
+               <Hero/>
+               <Services/>
+               <Products/>
+               
+        </Leyout>
+      
     </div>
   )
 }
