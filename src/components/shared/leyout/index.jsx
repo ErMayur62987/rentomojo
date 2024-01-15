@@ -119,8 +119,6 @@ const Leyout = ({children}) => {
     ]
 
 
-     
-
   return (
    <div  >
           <div className='flex justify-center flex-col font-sans'>
@@ -139,7 +137,7 @@ const Leyout = ({children}) => {
                        </div>
                      <div className='flex gap-6 justify-center items-center'>
                             <span className='flex gap-1 items-center'> <i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</span>
-                            <button className='bg-rose-600 rounded-lg px-7 py-2 text-white font-sans text-sm'>Login/signup</button>
+                            <button className='bg-rose-600 rounded-lg px-7 py-2 text-white font-sans text-sm hover:bg-white hover:text-rose-600 hover: border border-rose-600'>Login/signup</button>
                      </div>
                      
               </nav>
@@ -148,15 +146,15 @@ const Leyout = ({children}) => {
                 {children}
               </section>
           
-                <footer  className='bg-[#F5F7FA] w-screen'>
-                  <div className='grid-cols-4 flex gap-48 text-sm justify-center'>
+                <footer  className='bg-[#F5F7FA] w-screen '>
+                  <div className='grid-cols-4 flex gap-48 text-xs justify-center'>
                   <div className='flex flex-col gap-2'>
                        <h1 className=' text-sm font-semibold text-black'>RENTOMOJO</h1>
                        {/* <div className='flex flex-col gap-2'>                  */}
                        <ul className='flex flex-col gap-2'>
                    {
                      menus.map((menu, index)=> (
-                     <li key={index} className="capitalize font-sm"><Link to={menu.path}>{menu.label}</Link></li>
+                     <li key={index} className="capitalize text-xs text-slate-600 hover:underline decoration-[0.5px]"><Link to={menu.path}>{menu.label}</Link></li>
                        ))
                    }
                       </ul>
@@ -169,7 +167,7 @@ const Leyout = ({children}) => {
                     {
                        informations.map((information,index)=>( 
                              <li key={index} >
-                                <Link to={information.path} className="capitalize text-gray-600">{information.label} </Link>
+                                <Link to={information.path} className="capitalize text-gray-600 hover:underline decoration-[0.5px]">{information.label} </Link>
                             </li>
 
                        ))
@@ -185,7 +183,7 @@ const Leyout = ({children}) => {
                     {
                        policies.map((policy,index)=>( 
                              <li key={index} >
-                                <Link to={policy.path} className="capitalize text-gray-600">{policy.label} </Link>
+                                <Link to={policy.path} className="capitalize text-gray-600 hover:underline decoration-[0.5px]">{policy.label} </Link>
                             </li>
 
                        ))
@@ -219,7 +217,7 @@ const Leyout = ({children}) => {
                              <hr className='bg-slate-600 w-[90%] '/>
                          </div>
                          <div className='flex justify-around text-xs items-center py-10'>
-                           <span> 2024. Edunetwork Pvt. Ltd.</span>
+                           <span> © 2024. Edunetwork Pvt. Ltd.</span>
                            <div className="flex gap-4">
                  { 
                  socials.map((social,index) =>(
@@ -231,7 +229,7 @@ const Leyout = ({children}) => {
                 
                  </div>
                             
-                 <span>Go up</span>
+                 <span className='text-xs'>Go Up</span>
 
 
                          </div>
