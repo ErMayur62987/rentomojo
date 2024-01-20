@@ -14,7 +14,7 @@ import Homepage from "./components/homepage"
 
 const App = () => {
   return (
-    <div className=" w-screen flex justify-center px-16">
+    <div>
       <div>
         <Router>
            <Routes>

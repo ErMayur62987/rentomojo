@@ -121,9 +121,9 @@ const Leyout = ({children}) => {
 
   return (
    <div  >
-          <div className='flex justify-center flex-col font-sans'>
+          <div className='flex justify-center flex-col font-sans w-full'>
           <div className='flex justify-center items-center '>
-              <nav className='flex justify-center items-center gap-6 h-16'>
+              <nav className='flex justify-center items-center gap-6 h-16 '>
                     <div className='flex gap-8 justify-center items-center h-16'>
                             <div className='flex gap-3 justify-center items-center h-16'>
                                 <img src="/images/logo_rentmojo.svg" alt="rentmojo_logo" className='h-[50%]' />
@@ -133,10 +133,10 @@ const Leyout = ({children}) => {
                     </div>
                        <div >
                           <input type="text" placeholder="search for products" className='w-[36rem] py-2 px-4 outline-none border border-slate-400 bg-slate-100 rounded-lg relative'/>
-                          <i class="fa fa-search" aria-hidden="true" style={{position:'absolute',right:'26%',top:'22px'}} ></i>
+                          <i className="fa fa-search" aria-hidden="true" style={{position:'absolute',right:'26%',top:'22px'}} ></i>
                        </div>
                      <div className='flex gap-6 justify-center items-center'>
-                            <span className='flex gap-1 items-center'> <i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</span>
+                            <span className='flex gap-1 items-center'> <i className="fa fa-shopping-cart" aria-hidden="true"></i>Cart</span>
                             <button className='bg-rose-600 rounded-lg px-7 py-2 text-white font-sans text-sm hover:bg-white hover:text-rose-600 hover: border border-rose-600'>Login/signup</button>
                      </div>
                      
@@ -196,7 +196,7 @@ const Leyout = ({children}) => {
                     <div className='flex flex-col gap-2'>
                         <h1 className=' text-sm font-semibold text-black'>NEED HELP ?</h1>
                         <div className='flex gap-2 items-center'>
-                        <i class="fa fa-telegram" aria-hidden="true" style={{fontSize:"large"}} ></i>
+                        <i className="fa fa-telegram" aria-hidden="true" style={{fontSize:"large"}} ></i>
                             <span>jo@rentomojo.com</span>
                         </div>
               <div className='flex flex-col gap-2'>

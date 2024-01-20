@@ -40,10 +40,10 @@ const Hero = () => {
 
         </div>
            <div className='flex gap-2 justify-center items-between text-xs pt-3'>
-           <i class="fa-solid fa-virus"></i>
+           <i className="fa-solid fa-virus"></i>
            <p>
 Safety precautions during COVID-19. We’re taking additional steps and precautionary measures to protect our community from COVID-19.</p>
-  <span>Know more <i class="fa fa-angle-right " aria-hidden="true" style={{background:'black', borderRadius:'50%', color:'white', fontSize:'10px',padding:'3px 5px'}}></i></span>
+  <span>Know more <i className="fa fa-angle-right " aria-hidden="true" style={{background:'black', borderRadius:'50%', color:'white', fontSize:'10px',padding:'3px 5px'}}></i></span>
            </div>
        </div>
     </div>
